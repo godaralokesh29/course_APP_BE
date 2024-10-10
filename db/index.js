@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB
-mongoose.connect('//PLACE YOUR OWN SCHEMA HERE');
+mongoose.connect('//PLACE YOUR OWN db HERE');
 
 // Define schemas
 const AdminSchema = new mongoose.Schema({
